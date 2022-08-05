@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    border:2px solid red;
+    background-image:url(https://barker-associates.b-cdn.net/wp-content/uploads/2022/02/Architecture-and-Design-.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 400px;
+    position: relative;
+}
+
+.nav{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.cobby{
+border: 2px solid red;
+    width: 50%;
+    color: white;
+    padding-left: 20px;
+}
+.navi{
+    border: 2px solid red;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+
+}
+.yazi1{
+    border: 2px solid red;
+   position: absolute;
+   top: 40%;
+   left: 10%;
+   width: 30%;
+   height: 40%;
+   align-items: center;
+
+}
+.build {
+    border: 2px solid red;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.build2 {
+    color: white;
+    text-align:center; 
+}
+.button1{
+    background-color:goldenrod;
+    border: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 30px;
+    left: 50%;
+    margin: 4px 2px;
+}
+.button2{
+    background-color:rgba(0, 0, 0, 0.562);
+    border:none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 30px;
+}
